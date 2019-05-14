@@ -1,0 +1,136 @@
+    .card-panel p
+    {
+        font-size: 30px;
+    }
+
+    .container
+    {
+        text-decoration: none;
+    }
+
+    .navbar
+    {
+        border-radius: 15px 60px 15px 50px;
+        background-color: lightblue;
+    }
+
+    .navbar ul a 
+    {
+        font-size: 20px;
+        color: black;
+    }
+
+    body
+    {
+        background-image: url("../img/bodybg.jpg");
+        background-size: 100% 100%, cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    ul:not(.browser-default){
+        padding-left: 20px;
+    }
+
+    .carousel h2
+    {
+        color: black;
+        width: 100%;
+    }
+
+    .carousel .carousel-item
+    {
+        width: 800px;
+        height: 900px;
+        position: absolute;
+        padding: 80px 80px;
+        margin-top: 200px;
+        left: 0;
+    }
+
+    .material-icons
+    {
+        top: 200vh;
+    }
+
+    .icon_form:hover
+    {
+        background-color: #424242;
+    }
+
+    .icon_form
+    {
+        color: white;
+    }
+
+    .seta-r
+    {
+        transform: translateY(530%);
+        position: relative;
+    }
+
+    .seta-l
+    {
+        transform: translateY(530%);
+        position: relative;
+    }
+
+    .btn, .btn-large, .btn-small {
+        background-color: black;
+    }
+
+    .btn:hover, .btn-large:hover, .btn-small:hover
+    {
+        background-color: grey;
+    }
+
+    /* label color */
+   .input-field label
+   {
+     color: #1976d2;
+   }
+   /* label focus color */
+   .input-field label:focus:not
+   {
+     color: #1976d2;
+   }
+   /* label underline focus color */
+   .input-field:focus
+   {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 white;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active
+   {
+     color: white;
+   }
+
+    input[type=text]:not(.browser-default):focus:not([readonly])
+    {
+        border-bottom: 1px solid white;
+        -webkit-box-shadow: 0 1px 0 0 white;
+        box-shadow: 0 1px 0 0 white;
+    }
+
+    input[type=email]:not(.browser-default):focus:not([readonly])
+    {
+        border-bottom: 1px solid white;
+        -webkit-box-shadow: 0 1px 0 0 white;
+        box-shadow: 0 1px 0 0 white;
+    }
+
+    textarea.materialize-textarea:focus:not([readonly])
+    {
+        border-bottom: 1px solid white;
+        -webkit-box-shadow: 0 1px 0 0 white;
+        box-shadow: 0 1px 0 0 white;
+    }
+    
+    input:not([type]):focus:not([readonly])+label,input[type=text]:not(.browser-default):focus:not([readonly])+label,input[type=password]:not(.browser-default):focus:not([readonly])+label,input[type=email]:not(.browser-default):focus:not([readonly])+label,input[type=url]:not(.browser-default):focus:not([readonly])+label,input[type=time]:not(.browser-default):focus:not([readonly])+label,input[type=date]:not(.browser-default):focus:not([readonly])+label,input[type=datetime]:not(.browser-default):focus:not([readonly])+label,input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,input[type=tel]:not(.browser-default):focus:not([readonly])+label,input[type=number]:not(.browser-default):focus:not([readonly])+label,input[type=search]:not(.browser-default):focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label{color:#1976d2;}
+
+    #text-arc
+    {
+        text-align: center;
+        color: white;
+    }
