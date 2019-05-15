@@ -34,7 +34,6 @@ function load(){
   document.getElementById("trigger").click();
 }
 
-
 //carousel
 var instance = M.Carousel.getInstance(elem);
 
@@ -44,4 +43,18 @@ function next(){
 
 function prev(){
 	instance.prev();
+}
+
+//trigger do modal do contato
+function msgSubmit(){
+    document.getElementById("trigger_contato").click();
+}
+
+
+//guardar informações da tela de contato
+function save(){
+    nome = document.getElementById("first_name").value;
+    sobrenome = document.getElementById("last_name").value;
+    email = document.getElementById("email").value;
+    msg = document.getElementById("mensagem").value;
 }
